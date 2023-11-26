@@ -11,7 +11,7 @@ body{
 
 }
 html{
-    scroll-behaviour:smooth;
+    scroll-behavior:smooth;
 
 }
 p{
@@ -24,7 +24,7 @@ a, .btn{
 }
 /*DESKTOP NAV*/
 
-nav,nav-Links{
+nav,.nav-links{
     display:flex;
 }
 nav{
@@ -34,9 +34,9 @@ nav{
 
 }
 .nav-links{
-    gap: 2rem;
-    list-style: none;
-    font-size: 1.5rem;
+   gap: 2rem;
+   list-style: none;
+   font-size: 1.5rem;
 }
 a{
     color: black;
@@ -110,19 +110,19 @@ transition:all 0.3 ease-in-out;
     max-height: 300px;
 }
 .hamburger-icon.open span:first-child{
-    transform: rotate(45deg)translate(10px,5px);
+    transform: rotate(45deg) translate(10px,5px);
 }
-hamburger-icon.open span:nth-child(2){
+.hamburger-icon.open span:nth-child(2){
     opacity: 0;
 }
-hamburger-icon.open span:last-child{
-    transform: rotate(-45deg)translate(10px,-5px);
+.hamburger-icon.open span:last-child{
+    transform: rotate(-45deg) translate(10px,-5px);
 }
 .hamburger-icon span:first-child{
     transform: none;
 }
 .hamburger-icon span:first-child{
-    opacity: 1;;
+    opacity: 1;
 }
 .hamburger-icon span:first-child{
     transform: none;
@@ -314,10 +314,10 @@ article.icon{
     border-color: rgb(163,163,163);
     background: rgb(250,250,250);
 }
-.project.img {
+.projects.img {
     border-radius: 2rem;
-    width: 50%;
-    height:50%;
+    width: 90%;
+    height: 90%;
 }
 
 .project-title{
